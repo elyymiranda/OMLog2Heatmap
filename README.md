@@ -1,6 +1,6 @@
 # OpenMolcas Configuration Weight Analyzer
 
-![Example Heatmap](example_heatmap.png)
+![Exemple: configuration_heatmap_root1_thres0 3](https://github.com/user-attachments/assets/358765d5-9f06-455a-b106-aaaa69b8dc32)
 
 A Python script to analyze and visualize configuration weights from OpenMolcas log files, comparing two molecular geometries.
 
@@ -32,11 +32,13 @@ pip install pandas seaborn matplotlib
 python OMLOG2Heatmap.py geo1=non_planar.log geo2=planar.log [thres=0.2]
 ```
 
-Parameters
-Parameter	Description						Default
-geo1		First geometry log file (required)			-
-geo2		Second geometry log file (required)			-
-thres		Minimum absolute CI coefficient value to include	0.2
+## Parameters
+
+| Parameter | Description                                   | Default |
+|-----------|-----------------------------------------------|---------|
+| `geo1`    | First geometry log file (required)            | -       |
+| `geo2`    | Second geometry log file (required)           | -       |
+| `thres`   | Minimum absolute CI coefficient value to include | 0.2    |
 
 ## Output Files
 
