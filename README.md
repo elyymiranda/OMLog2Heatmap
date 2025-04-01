@@ -24,11 +24,13 @@ A Python script to analyze and visualize configuration weights from OpenMolcas l
 Install dependencies with:
 ```bash
 pip install pandas seaborn matplotlib
+```
 
 ## Usage
 
 ```bash
 python OMLOG2Heatmap.py geo1=non_planar.log geo2=planar.log [thres=0.2]
+```
 
 Parameters
 Parameter	Description						Default
@@ -61,4 +63,4 @@ GEOMETRY_NAMES = {
     'planar': 'p-NDP',
     'non-planar': 'NDP'
 }
-
+```
