@@ -2,7 +2,7 @@
 
 ![Exemple: configuration_heatmap_root1_thres0 3](https://github.com/user-attachments/assets/358765d5-9f06-455a-b106-aaaa69b8dc32)
 
-A Python script to analyze and visualize configuration weights from OpenMolcas log files, comparing two molecular geometries.
+**A specialized Python tool for quantifying and visualizing electronic configuration weights from OpenMolcas calculations, with particular focus on analyzing static correlation effects across different molecular geometries.**
 
 ## Features
 
