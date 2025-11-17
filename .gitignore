@@ -1,0 +1,38 @@
+# Vim swap files
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.pyc
+
+# Output files
+*.png
+*.txt
+!README.md
+
+# OpenMolcas files
+*.log
+*.input
+*.RasOrb
+*.JobIph
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
